@@ -4,6 +4,7 @@ import BreadCrumb from "../components/BreadCrumb";
 import Meta from "../components/Meta";
 import { AiOutlineArrowLeft } from "react-icons/ai";
 import Container from "../components/Container";
+import blog1 from "../images/blog-1.jpg";
 
 const SingleBlog = () => {
   return (
@@ -19,11 +20,7 @@ const SingleBlog = () => {
                 Go Back To Blogs
               </Link>
               <h3 className="title">A beautiful Sunday Morning Renaissance</h3>
-              <img
-                src="images/blog-1.jpg"
-                className="img-fluid w-100 my-4"
-                alt="blog"
-              />
+              <img src={blog1} className="img-fluid w-100 my-4" alt="blog" />
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
                 quam dolorem illo praesentium reiciendis quis eos, doloremque
