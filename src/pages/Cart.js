@@ -23,7 +23,7 @@ const Cart = () => {
             <div className="cart-data mb-2 py-3 d-flex justify-content-between align-items-center">
               <div className="cart-col-1 gap-15 d-flex align-items-center">
                 <div className="w-25">
-                  <img src={watch} alt="product image" className="img-fluid" />
+                  <img src={watch} alt="product" className="img-fluid" />
                 </div>
                 <div className="w-75">
                   <h5 className="title">Watch</h5>
@@ -56,7 +56,7 @@ const Cart = () => {
             <div className="cart-data mb-2 py-3 d-flex justify-content-between align-items-center">
               <div className="cart-col-1 gap-15 d-flex align-items-center">
                 <div className="w-25">
-                  <img src={watch} alt="product image" className="img-fluid" />
+                  <img src={watch} alt="product" className="img-fluid" />
                 </div>
                 <div className="w-75">
                   <h5 className="title">Watch</h5>

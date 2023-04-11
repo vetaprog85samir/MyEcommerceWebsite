@@ -4,7 +4,6 @@ import { BsSearch } from "react-icons/bs";
 import wishlist from "../images/wishlist.svg";
 import user from "../images/user.svg";
 import cart from "../images/cart.svg";
-import menu from "../images/menu.svg";
 
 const Header = () => {
   return (

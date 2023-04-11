@@ -124,11 +124,7 @@ const Checkout = () => {
                     >
                       1
                     </span>
-                    <img
-                      src={watch}
-                      alt="product image"
-                      className="img-fluid"
-                    />
+                    <img src={watch} alt="product" className="img-fluid" />
                   </div>
                   <div>
                     <h5 className="total-price">Watch</h5>
